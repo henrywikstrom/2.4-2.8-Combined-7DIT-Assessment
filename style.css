@@ -54,7 +54,7 @@ nav ul {
 }
 
 .hero-text button {
-  margin-top: 250px;
+  margin-top:250px;
 }
 
 nav ul, footer {
@@ -95,4 +95,59 @@ nav a:hover {
   color: #161616;
   background-color: #5D7E8F;
   transition: 0.50S;
+}
+
+.fa {
+  color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: #3B1E34;
+}
+
+
+
+form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.container {
+  padding: 10px;
+  background-color: #BBD8E5;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 25%;
+  padding: 12px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
