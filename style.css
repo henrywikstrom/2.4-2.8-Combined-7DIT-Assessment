@@ -5,6 +5,11 @@
   padding: 0;
 
 }
+
+html,body {
+  overflow-x: hidden;
+}
+
 body {
     background-color: #BBD8E5;
 }
@@ -187,6 +192,8 @@ input[type=submit]:hover {
     color: white;
     font-size: 40px;
     margin-left: 400px;
+    color: blue;
+    font-size: 20px;
 }
 
 .hero-image3 {
@@ -256,6 +263,21 @@ input[type=submit]:hover {
   background-attachment: fixed;
   height:100vh;
 }
+
+.hero-image6 i {
+  color: white;
+}
+
+.hero-text6 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+
 .text-block {
   line-height: 150%;
   width: 90%;
@@ -361,7 +383,67 @@ height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
-    div.hero-text button {
-      margin-top:10px;
+  div.hero-text button {
+    margin-top:150px;
+    font-size: 20px;
   }
+  h1 {
+    font-size: 50px;
+  }
+  .hero-text5 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    padding-bottom: 200px;
+}
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  color: blue;
+  font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 1050px) {
+  div.hero-text button {
+    margin-top:150px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .hero-text5 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    padding-bottom: 200px;
+}
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  color: blue;
+  font-size: 20px;
+}
 }
